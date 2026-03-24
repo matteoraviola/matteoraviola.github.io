@@ -12,54 +12,56 @@
 
 <body>
   <main class="page">
-    <header class="site-header">
-      <div class="site-intro">
-        <h1>Matteo Raviola</h1>
-        <p class="role">PhD Student and Doctoral Assistant, CSQI Lab, EPFL</p>
-        <p class="links">
-          <a class="header-link" href="mailto:matteo.raviola@epfl.ch">email</a>
-          <span class="header-separator">•</span>
-          <a class="header-link" href="files/Matteo_Raviola_CV.pdf">cv</a>
-          <span class="header-separator">•</span>
-          <a class="header-link" href="https://scholar.google.com/citations?user=om74h2EAAAAJ&amp;hl=it">scholar</a>
-          <span class="header-separator">•</span>
-          <a class="header-link" href="https://www.linkedin.com/in/matteo-r-253977129/">linkedin</a>
+    <section class="hero" aria-labelledby="about-me">
+      <img class="portrait hero-portrait" src="assets/profile.png" alt="Portrait of Matteo Raviola">
+      <header class="site-header">
+        <div class="site-intro">
+          <h1>Matteo Raviola</h1>
+          <p class="role">PhD Student and Doctoral Assistant, CSQI Lab, EPFL</p>
+          <p class="links">
+            <a class="header-link" href="mailto:matteo.raviola@epfl.ch">email</a>
+            <span class="header-separator">•</span>
+            <a class="header-link" href="files/Matteo_Raviola_Resume.pdf">cv</a>
+            <span class="header-separator">•</span>
+            <a class="header-link" href="https://scholar.google.com/citations?user=om74h2EAAAAJ&amp;hl=it">scholar</a>
+            <span class="header-separator">•</span>
+            <a class="header-link" href="https://www.linkedin.com/in/matteo-r-253977129/">linkedin</a>
+          </p>
+        </div>
+      </header>
+
+      <div class="about-content">
+        <h2 id="about-me">About Me</h2>
+        <p>
+          I am a PhD student and Doctoral Assistant in the Scientific Computing and
+          Uncertainty Quantification (CSQI) Lab at École Polytechnique Fédérale de
+          Lausanne (EPFL) in Switzerland.
+          My research is in applied mathematics and scientific
+          computing, with a focus on developing efficient and mathematically rigorous algorithms for:
+        </p>
+        <ul class="focus-list">
+          <li>
+            <strong>Reduced-order modeling</strong> for high-dimensional and parametric systems;
+          </li>
+          <li>
+            <strong>High-dimensional approximation and uncertainty propagation</strong> in models with uncertain inputs;
+          </li>
+          <li>
+            <strong>Optimization</strong> for physics-constrained systems.
+          </li>
+        </ul>
+        <p>
+          Moreover, I have a strong interest in variational sampling methods for Bayesian
+          inverse problems involving physical systems, and in randomized numerical linear
+          algebra techniques for large-scale PDE problems, which I have explored through the supervision of a number of
+          student projects.
+        </p>
+        <p>
+          In 2024, I co-organized the summer school
+          <a class="plain-link" href="https://numrad.epfl.ch/former-editions/">NUMRAD24</a> on
+          numerical methods for random differential models held at EPFL.
         </p>
       </div>
-      <img class="portrait" src="assets/profile.png" alt="Portrait of Matteo Raviola">
-    </header>
-
-    <section class="section" aria-labelledby="about-me">
-      <h2 id="about-me">About Me</h2>
-      <p>
-        I am a PhD student and Doctoral Assistant in the Scientific Computing and
-        Uncertainty Quantification (CSQI) Lab at École Polytechnique Fédérale de
-        Lausanne (EPFL) in Switzerland.
-        My research is in applied mathematics and scientific
-        computing, with a focus on developing efficient and mathematically rigorous algorithms for:
-      </p>
-      <ul class="focus-list">
-        <li>
-          <strong>Reduced-order modeling</strong> for high-dimensional and parametric systems;
-        </li>
-        <li>
-          <strong>High-dimensional approximation and uncertainty propagation</strong> in models with uncertain inputs;
-        </li>
-        <li>
-          <strong>Optimization</strong> for physics-constrained systems.
-        </li>
-      </ul>
-      <p>
-        Moreover, I have a strong interest in variational sampling methods for Bayesian
-        inverse problems involving physical systems, and in randomized numerical linear
-        algebra techniques for large-scale PDE problems, which I have explored through the supervision of a number of
-        student projects.
-      </p>
-      <p>
-        In 2024, I co-organized the summer school
-        <a href="https://numrad.epfl.ch/former-editions/">NUMRAD24</a> on
-        numerical methods for random differential models held at EPFL.
-      </p>
     </section>
 
     <section class="section" aria-labelledby="experience-education">
@@ -87,18 +89,18 @@
             </td>
           </tr>
           <tr>
-            <td class="title">Master's Degree in Applied Mathematics</td>
+            <td class="title">M.Sc. in Applied Mathematics</td>
             <td class="place">Politecnico di Torino</td>
             <td class="dates">Oct 2020 - Oct 2022</td>
           </tr>
           <tr>
             <td class="detail" colspan="3">
-              Final grade: 110/110 cum laude. Thesis on kernel neural ODEs trained with
-              optimal control and Riemannian optimization, supervised by Fabio
+              Final grade: 110/110 cum laude. ASP & Erasmus+ scholarships. Thesis on <em>kernel neural ODEs trained with
+              optimal control and Riemannian optimization</em>, supervised by Fabio
               Nobile and Claudio Canuto.
             </td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td class="title">Alta Scuola Politecnica</td>
             <td class="place">Politecnico di Milano &amp; Politecnico di Torino</td>
             <td class="dates">Oct 2020 - Oct 2022</td>
@@ -108,20 +110,20 @@
               Excellence program for advanced interdisciplinary training.
             </td>
           </tr>
-          <tr>
-            <!-- <td class="title">Erasmus+ Exchange Semester</td> -->
-            <!-- <td class="place">École Polytechnique Fédérale de Lausanne</td> -->
-            <!-- <td class="dates">Sep 2021 - Feb 2022</td> -->
-            <!-- </tr> -->
-            <!-- <tr> -->
-            <td class="title">Bachelor's Degree in Applied Mathematics</td>
-            <td class="place">Politecnico di Torino</td>
-            <td class="dates">2017 - 2020</td>
+          <tr> -->
+          <!-- <td class="title">Erasmus+ Exchange Semester</td> -->
+          <!-- <td class="place">École Polytechnique Fédérale de Lausanne</td> -->
+          <!-- <td class="dates">Sep 2021 - Feb 2022</td> -->
+          <!-- </tr> -->
+          <!-- <tr> -->
+          <td class="title">B.Sc. in Applied Mathematics</td>
+          <td class="place">Politecnico di Torino</td>
+          <td class="dates">2017 - 2020</td>
           </tr>
           <tr>
             <td class="detail" colspan="3">
-              Final grade: 110/110 cum laude. Thesis on kinetic models of opinion
-              formation on social networks, supervised by Andrea Tosin.
+              Final grade: 110/110 cum laude. Thesis on <em>kinetic models of opinion
+              formation on social networks</em>, supervised by Andrea Tosin.
             </td>
           </tr>
         </tbody>
